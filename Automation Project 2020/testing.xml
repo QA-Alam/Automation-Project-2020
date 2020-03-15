@@ -6,7 +6,8 @@
 	</listeners>
 	<test name="PMCS Login test">
 		<classes>
-		         <class name="com.usa.logintest.LoginTest"/>    
+		         <class name="com.usa.logintest.LoginTest"/> 
+		         <class name="com.usa.logintest.FindPropertyTest"/>      
 		</classes>
 	</test>
 </suite>

@@ -74,6 +74,7 @@ public class SeleniumUtil extends SupperClass {
 		WebElement element1 = wait.until(ExpectedConditions.elementToBeClickable(element));
 		return element1;
 	}
+	
 
 	public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException {
 		String dateName = new SimpleDateFormat("MM.dd.yyyy-hh.mm.ss").format(new Date());
