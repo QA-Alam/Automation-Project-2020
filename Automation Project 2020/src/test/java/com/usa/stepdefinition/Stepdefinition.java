@@ -1,8 +1,12 @@
 package com.usa.stepdefinition;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import com.usa.basepage.SupperClass;
 import com.usa.pagefactory.MasterPageFactory;
+import com.usa.utility.SeleniumUtil;
+
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
@@ -43,7 +47,7 @@ public class Stepdefinition extends SupperClass{
 	}
 
 	@Then("^Verify Home page title$")
-	public void verify_Home_page_title() {
+	public void verify_Home_page_title() throws IOException {
 		logger.info("******** As a user i can verify page title *********");
 		if (driver.getPageSource().contains("We know what a home is really worth")) {
 			Assert.assertTrue(true);
@@ -51,6 +55,7 @@ public class Stepdefinition extends SupperClass{
 		} else {
 			logger.info("******** As a user i can verify error message *********");
 			driver.getPageSource().contains("Register with Zoopla");
+			SeleniumUtil.getScreenshot(driver, "Invalid credentials");
 			Assert.assertTrue(true);
 			System.out.println("UserName is a Invalid :: Register with Zoopla");
 		}

@@ -33,7 +33,7 @@ public class FindPropertyPage extends SupperClass {
 
 	}
 
-	public void FindTotalHouse() throws InterruptedException {
+	public void FindTotalHouse() {
 		List<WebElement> list = driver.findElements(By.xpath("//*[@class='listing-results-price text-price']"));
 		System.out.println("Total number of suggestions in Search Property:::===> " + list.size());
 		for (int i = 0; i < list.size(); i++) {
@@ -41,18 +41,22 @@ public class FindPropertyPage extends SupperClass {
 		}
 	}
 
-	@SuppressWarnings("unused")
 	public void FindFifthProperty() {
 		List<WebElement> fifth = driver.findElements(By.xpath("//*[@class='listing-results-price text-price']"));
 		for (int k = 0; k < fifth.size(); k++) {
 			if (k > 4) {
-				System.out
-						.println("selected " + k + " Number Property and price ::" + fifth.get(k).getAttribute("text"));
+				System.out.println(" I can selected " + k + " Number Property and i can see the price ::"
+						+ fifth.get(k).getAttribute("text"));
 				fifth.get(k).click();
-				
+
+				break;
 			}
-			break;
+
 		}
+	}
+
+	public String validatePageTitle() {
+		return driver.getTitle();
 
 	}
 

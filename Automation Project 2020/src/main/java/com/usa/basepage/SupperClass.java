@@ -42,6 +42,7 @@ public class SupperClass {
 		if (browser.equalsIgnoreCase("Firefox")) {
 			logger.info("******** I am a firefox browser*********");
 			System.setProperty("webdriver.gecko.driver", "/Users/mohammedalam/geckodriver");
+			System.setProperty("webdriver.gecko.driver", "./Driver/geckodriver.exe");
 			System.out.println("getFirefoxDriver Method is running on Thread :: " + Thread.currentThread().getId());
 			driver = new FirefoxDriver();
 			// If browser is IE, then do this
@@ -64,11 +65,13 @@ public class SupperClass {
 		} else if (browser.equalsIgnoreCase("Chrome")) {
 			logger.info("******** I am a Chrome browser*********");
 			System.setProperty("webdriver.chrome.driver", "/Users/mohammedalam/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 			System.out.println("getChormeDriver Method is running on Thread : " + Thread.currentThread().getId());
 			driver = new ChromeDriver();
 		} else if (browser.equals("headless")) {
 			logger.info("******** I am a headless browser*********");
 			System.setProperty("webdriver.chrome.driver", "/Users/mohammedalam/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200",
 					"--ignore-certificate-errors", "--silent");
@@ -84,6 +87,7 @@ public class SupperClass {
 	public static void InitializeCucumberBDD() {
 		logger.info("******** I am a chrome browser *********");
 		System.setProperty("webdriver.chrome.driver", "/Users/mohammedalam/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		System.out.println(" getChormeDriver Method is running on Thread : " + Thread.currentThread().getId());
 		driver = new ChromeDriver();
 		logger.info("******** I am maximaize the browser *********");

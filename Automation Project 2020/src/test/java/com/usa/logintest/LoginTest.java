@@ -18,12 +18,6 @@ public class LoginTest extends SupperClass {
 		lp = new LoginPage();
 	}
 
-	/**
-	 * As a User i can click on sign in BTN As a User i can enter user name As a
-	 * User i can enter password As a User i can click on submit BTN As a User i can
-	 * verify my page title As a User i can closed the browser
-	 */
-
 	@Test
 	public void getLoginValidation() throws InterruptedException {
 		// lp.login(prop.getProperty("userName"), prop.getProperty("textPassword"));
