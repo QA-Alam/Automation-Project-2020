@@ -1132,3 +1132,31 @@
 2020-03-22 22:45:38,269 - QA Testing -INFO - ******** As a user i can verify page title *********
 2020-03-22 22:45:38,290 - QA Testing -INFO - ******** As a user i can verify error message *********
 2020-03-22 22:45:40,569 - QA Testing -INFO - ******** As a user i can closed the browser *********
+2020-03-22 22:51:32,364 - QA Testing -INFO - ******** I am a chrome browser *********
+2020-03-22 22:51:41,742 - QA Testing -INFO - ******** I am maximaize the browser *********
+2020-03-22 22:51:46,486 - QA Testing -INFO - ******** As a user i can enter URL *********
+2020-03-22 22:51:56,551 - QA Testing -INFO - ******** As a user i can Click on signIn BTN *********
+2020-03-22 22:52:01,797 - QA Testing -INFO - ******** As a user i can enter username *********
+2020-03-22 22:52:02,401 - QA Testing -INFO - ******** As a user i can enter password *********
+2020-03-22 22:52:02,945 - QA Testing -INFO - ******** As a user i can click on submit btn *********
+2020-03-22 22:52:08,137 - QA Testing -INFO - ******** As a user i can verify page title *********
+2020-03-22 22:52:08,339 - QA Testing -INFO - ******** As a user i can closed the browser *********
+2020-03-22 22:52:09,784 - QA Testing -INFO - ******** I am a chrome browser *********
+2020-03-22 22:52:15,459 - QA Testing -INFO - ******** I am maximaize the browser *********
+2020-03-22 22:52:19,840 - QA Testing -INFO - ******** As a user i can enter URL *********
+2020-03-22 22:52:26,938 - QA Testing -INFO - ******** As a user i can click on signin btn *********
+2020-03-22 22:52:36,457 - QA Testing -INFO - ******** As a user i can enter username *********
+2020-03-22 22:52:36,812 - QA Testing -INFO - ******** As a user i can enter password *********
+2020-03-22 22:52:37,058 - QA Testing -INFO - ******** As a user i can click on submit btn *********
+2020-03-22 22:52:42,055 - QA Testing -INFO - ******** As a user i can verify page title *********
+2020-03-22 22:52:42,137 - QA Testing -INFO - ******** As a user i can closed the browser *********
+2020-03-22 22:52:43,459 - QA Testing -INFO - ******** I am a chrome browser *********
+2020-03-22 22:52:49,607 - QA Testing -INFO - ******** I am maximaize the browser *********
+2020-03-22 22:52:54,100 - QA Testing -INFO - ******** As a user i can enter URL *********
+2020-03-22 22:53:13,889 - QA Testing -INFO - ******** As a user i can click on signin btn *********
+2020-03-22 22:53:17,585 - QA Testing -INFO - ******** As a user i can enter username *********
+2020-03-22 22:53:18,082 - QA Testing -INFO - ******** As a user i can enter password *********
+2020-03-22 22:53:18,288 - QA Testing -INFO - ******** As a user i can click on submit btn *********
+2020-03-22 22:53:25,201 - QA Testing -INFO - ******** As a user i can verify page title *********
+2020-03-22 22:53:25,226 - QA Testing -INFO - ******** As a user i can verify error message *********
+2020-03-22 22:53:26,357 - QA Testing -INFO - ******** As a user i can closed the browser *********
