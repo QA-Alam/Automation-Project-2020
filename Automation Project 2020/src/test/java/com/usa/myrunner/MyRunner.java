@@ -5,8 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
         @CucumberOptions(
 		features = { "Features" },
-		plugin = {"pretty", "html:target/cucumber-reports/cucumber.json",
-		"json:target/cucumber.json"},
+		plugin = {"pretty", "html:target/cucumber-reports/cucumber.json", "json:target/cucumber.json"},
 		dryRun = false,
 		monochrome  = true,
 		strict = true,
@@ -15,3 +14,4 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 public class MyRunner extends AbstractTestNGCucumberTests {
 
 }
+       
