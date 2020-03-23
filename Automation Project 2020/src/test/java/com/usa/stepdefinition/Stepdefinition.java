@@ -1,12 +1,11 @@
 package com.usa.stepdefinition;
 
 import java.io.IOException;
-
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import com.usa.basepage.SupperClass;
 import com.usa.pagefactory.MasterPageFactory;
 import com.usa.utility.SeleniumUtil;
-
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
@@ -18,8 +17,8 @@ public class Stepdefinition extends SupperClass{
 	
 	@Given("^Customer can open any browser$")
 	public void customer_can_open_any_browser() {
-		//pf = PageFactory.initElements(driver, MasterPageFactory.class);
-		pf = new MasterPageFactory(driver);
+		pf = PageFactory.initElements(driver, MasterPageFactory.class);
+		//pf = new MasterPageFactory(driver);
 	}
 
 	@Given("^Navigate to \"([^\"]*)\"$")

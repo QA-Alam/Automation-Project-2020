@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33538" started-at="2020-03-16T01:49:16Z" finished-at="2020-03-16T01:49:50Z">
+  <suite name="Automation Test Suite" duration-ms="132088" started-at="2020-03-23T02:36:40Z" finished-at="2020-03-23T02:38:52Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.myrunner.MyRunner@1442d7b5]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="33538" started-at="2020-03-16T01:49:16Z" finished-at="2020-03-16T01:49:50Z">
-      <class name="com.usa.logintest.FindPropertyTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.usa.logintest.FindPropertyTest@77e4c80f]" name="setUp" is-config="true" duration-ms="22260" started-at="2020-03-16T01:49:16Z" finished-at="2020-03-16T01:49:38Z">
+    <test name="PMCS Login test" duration-ms="132088" started-at="2020-03-23T02:36:40Z" finished-at="2020-03-23T02:38:52Z">
+      <class name="com.usa.myrunner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.usa.myrunner.MyRunner@1442d7b5]" name="setUpClass" is-config="true" duration-ms="322" started-at="2020-03-23T02:36:40Z" finished-at="2020-03-23T02:36:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="findProperties()[pri:0, instance:com.usa.logintest.FindPropertyTest@77e4c80f]" name="findProperties" duration-ms="9668" started-at="2020-03-16T01:49:38Z" finished-at="2020-03-16T01:49:48Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.myrunner.MyRunner@1442d7b5]" name="feature" duration-ms="61210" started-at="2020-03-23T02:36:41Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-23T02:37:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users can buy the Property sell the Property & compaire the Property price from the online https://www.zoopla.co.uk/ website]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findProperties -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.usa.logintest.FindPropertyTest@77e4c80f]" name="tearDown" is-config="true" duration-ms="1588" started-at="2020-03-16T01:49:48Z" finished-at="2020-03-16T01:49:50Z">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.myrunner.MyRunner@1442d7b5]" name="feature" duration-ms="69878" started-at="2020-03-23T02:37:42Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-23T02:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users can buy the Property sell the Property & compaire the Property price from the online https://www.zoopla.co.uk/ website]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.usa.logintest.FindPropertyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.usa.myrunner.MyRunner@1442d7b5]" name="tearDownClass" is-config="true" duration-ms="51" started-at="2020-03-23T02:38:52Z" finished-at="2020-03-23T02:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.usa.myrunner.MyRunner -->
+    </test> <!-- PMCS Login test -->
+  </suite> <!-- Automation Test Suite -->
 </testng-results>

@@ -7,7 +7,7 @@
 	<test name="PMCS Login test">
 		<classes>
 		         <class name="com.usa.logintest.LoginTest"/> 
-		         <class name="com.usa.logintest.FindPropertyTest"/>  
+		         <class name="com.usa.logintest.FindPropertyTest"/>   -
 		          <class name="com.usa.myrunner.MyRunner"/>       
 		</classes>
 	</test>
